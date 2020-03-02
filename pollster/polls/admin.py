@@ -1,6 +1,9 @@
 from django.contrib import admin
 from .models import Question, Choice
 
+admin.site.site_header = "Pollster Fam"
+admin.site.site_title = "Pollster Fam"
+admin.site.index_title = "Welcome to my Practice App"
 
 # this is where you are able to add admin functionality
 
